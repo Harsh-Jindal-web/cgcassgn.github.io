@@ -1,0 +1,164 @@
+/*Scroll bar*/
+
+::-webkit-scrollbar{
+    width:12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#eaa023 ,#e96e13);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(#24caac, #24caac);
+}
+
+/*End of Scroll bar*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.7;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+}
+
+/* === Navbar === */
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:17px;
+    letter-spacing: 2px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.navbar-brand {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav-item {
+  padding: 0 1px;
+}
+.nav-link {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: "Montserrat";
+  color: black;
+}
+
+
+/* === Programs section === */
+.programs .course-item {
+    border-radius: 5px;
+    border: 3px solid #eef0ef;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+
+}
+.section-title h2{
+    font-size: 3rem;
+}
+hr.style-two {
+    margin: auto;
+    border: 0;
+    width: 80%;
+    height: 5px;
+    background-image: linear-gradient(to right, #a18c8c, #7a0303,#a18c8c);
+}
+
+.programs .course-content {
+    padding: 15px;
+    
+}
+
+
+/* === Footer section === */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(245, 108, 29);
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: #999;
+    }
+    
+    .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: #999;
+    }   
+    
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 2;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
+    
